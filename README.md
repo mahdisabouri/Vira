@@ -3,6 +3,8 @@ When the user clicks on the person icon, he will go to the login page, and if he
 About Beck:
 Data models (arrangement of data models - relation of data models) done. Data models are arranged in the database. Currently, we have to decide whether to use Spring or Springbook to use the framework so that we can move to the next phase. It means to implement the back, but now we have the first phase, i.e. the front
 Vera team welcomes cooperation for the development of this project
+In branch master release, it is our program that is provided to the deployment team
+The Develop branch is the current tasks branch
 Vera's team consists of:
 Mehdi Sabouri: Front Development
 Amir Hossein Fardi: Back and Development
