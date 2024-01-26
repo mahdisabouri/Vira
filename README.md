@@ -10,4 +10,4 @@ Mehdi Sabouri: Front Development
 Amir Hossein Fardi: Back and Development
 Fatemeh Kodkhodaei: Product manager
 Zahra Mohammad Nia: Project manager
-Yasman Khoda: UI/UX
+Yasman kadKhoda: UI/UX
