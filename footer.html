@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column_1,.column_2,.column_3 {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Three Unequal Columns</h2>
+
+<div class="footer">
+  <div class="column_1 left" style="background-color:#aaa;">
+    <!-- create instagram -->
+    <ul>
+        <li class="instagram">
+         <a href="http://" target="_blank" rel="noopener noreferrer"> 
+          <i class="fa fa-instagram" style="font-size:36px"></i>
+        </a>
+        </li>
+  <!-- create email -->
+        <li>
+          <a href="#">
+            <i class="material-icons" style="font-size:36px">email</i>
+          </a>
+        </li>
+  
+  <!-- create telegram -->
+        <li>
+          <a href="#">
+            <i class="fa fa-send" style="font-size:36px"></i>
+            
+          </a>
+        
+        </li>
+      
+  
+      </ul>
+    <p>Some text..</p>
+  </div>
+
+
+
+  
+  <div class="column_2 middle" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column_3 right" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>

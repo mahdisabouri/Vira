@@ -1,0 +1,192 @@
+*{  
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-image: url('login-background/Web\ 1920\ –\ 2\ \(1\).png');
+    /* background-position: center; */
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+
+/* li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6FABAC;
+    border-radius: 40px;
+} */
+
+a {
+    text-decoration: none;
+}
+
+
+.right,
+.notif,
+.person {
+    display: inline;
+    float: right;
+    padding: 14px 16px;
+
+}
+
+.topnav {
+    margin-left: 59px;
+
+}
+
+
+.container {
+    width: 558px;
+    height: 667px;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    /* backdrop-filter: blur(20px); */
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px 40px ;
+    margin-right: 250px;
+    margin-bottom: 50px;
+
+    /* background: transparent; */
+}
+
+.container h1 {
+
+    font-size: 36px;
+    text-align: center  ;
+    color: black;
+}
+
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0; 
+}
+
+input{
+    color: #fff;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    /* border-radius: 40px; */
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+ 
+
+
+.input-box input::placeholder {
+    color: #707070#fff;
+}
+
+.input-box i {
+ position: absolute;
+ right: 20px;
+ top: 50%;
+ transform: translateY(-50%);
+ font-size: 20px;
+}
+
+.bx,.bxs-lock-alt{
+    color: #707070;
+}
+
+.material-icons{
+    color: #707070;
+}
+
+.fa,.fa-key{
+    color: #707070;
+}
+
+.container .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.container .btn {
+    width: 90px;
+    height: 45px;
+    background: #fff;
+    border-radius: 40px ;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 190px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;   
+}
+
+.container .Register-Link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px ;
+}
+
+.Register-Link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Register-Link p a:hover {
+    text-decoration: underline;
+}
